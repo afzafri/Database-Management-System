@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body {
+    background: url('../images/bg.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+.logo {
+    width: 213px;
+    height: 89px;
+    background: url('../images/logo.png') no-repeat;
+    margin: 30px auto;
+}
+
+.design-block {
+    width: 450px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #039350;
+    margin:  0 auto;
+}
+
+.design-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.design-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.design-block h4 {
+    text-align: center;
+    color: #25CB3B;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.design-block button {
+    width: 80%;
+    height: 40px;
+    background: #039350;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #098119;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.design-block button:hover {
+    background: #25CB3B;
+}
+
+.logout button {
+    width: 80%;
+    height: 40px;
+    background: #E4E72A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #098119;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    background: #F2F610;
+}
+
+.datcount {
+    width: 150px;
+    height: 50px;
+    background: #D9E4E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid #098119;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+}
+
+.back-but button {
+    width: 80%;
+    height: 40px;
+    background: #E4E72A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #098119;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.back-but button:hover {
+    background: #F2F610;
+}
+
+.design-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.design-block input:active, .add-block input:focus {
+    border: 1px solid #25CB3B;
+}
+
+.imgBorder
+{
+	border-radius: 25px;
+    background: #039350;
+    padding: 13px; 
+    width: 150px;
+    height: 150px; 
+}
