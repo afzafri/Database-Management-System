@@ -14,8 +14,8 @@ Simple Students' Database Mangement System
 4. Edit the file "config.php" and change the attributes to your database/phpmyadmin configurations (host,username,password etc)
 5. Navigate to localhost/dbsystem/
 6. Default login is 
-   -username : admin
-   -password : 123
+   - username : admin
+   - password : 123
 7. Enjoy
 
 ## Usage
